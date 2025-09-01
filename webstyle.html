@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Training Hub</title>
+    <style>
+    .main {
+        width: 50%;
+        height: 65vh;
+       font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #060505;
+        margin-left: 25%;
+        background-color: rgb(8, 8, 135);
+    }  
+    .header {
+       
+        height: 50px;  
+        margin: 0px; 
+        padding: 0px;   
+        
+    }
+     img {
+        width: 90px;
+        height: 50px;
+        float: left;
+        margin-left: 20px;
+        color: white;
+        
+    }
+    .header h4 {
+        font-size: 1.5rem;
+        color: rgb(251, 251, 251);
+        padding-top: 15px;      
+        font-weight: bold;
+        
+    }
+    .header h1 {
+        font-size: 4.4rem;
+        color: rgb(255, 255, 255);
+        padding-top: 3px;
+        margin-left: 40px;
+        font-weight: bold;
+    }
+    .header p {
+        font-size: 1.2rem;
+        color: rgb(255, 255, 255);
+        padding-top: 4px;
+        margin-left: 40px;
+        font-weight: light;
+    }
+    .header button {
+        background-color: rgb(255, 255, 255);
+        color: rgb(11, 10, 10);
+        padding: 10px 20px;
+        border: 1px solid black;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-left: 40px;
+        width: 150px;
+        
+    }
+    .mainpic{
+        width: 600px;
+        height: 400px;
+        float: right;
+        margin-right: -15%;
+        margin-top: -38%;
+       
+        
+    }
+    .section {
+        width: 50%;
+        height: 80vh;
+        margin-left: 25%;
+        background-color: rgb(126, 184, 204);
+        border: 1px solid #060505;
+    }
+    .section h1 {
+        font-size: 3rem;
+        color: rgb(6, 6, 6);
+        padding-top: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .section img {
+        width: 300px;
+        height: 170px;
+        margin: 20px;
+        margin-left: 70px;
+        border-radius: 30px;
+    }
+    .section h3 {
+        font-size: 1.2rem;
+        color: rgb(6, 6, 6);
+        text-align: center;
+        margin-top: 230px;
+       padding-right: 50%;
+    }
+    .third {
+        width: 300px;
+        height: 170px;
+        margin-left: 50%;
+      margin-top: -80%;
+      
+    }
+    .third h3 {
+        font-size: 1.2rem;
+        color: rgb(6, 6, 6);
+        text-align: center;
+        margin-top: 150%;
+        padding-left: 40%;
+    }
+    .fourth {
+        width: 300px;
+        height: 170px;
+        margin-left: 50%;
+        margin-top: -149%;
+       
+        display: flex;
+    }
+    .fourth h3 {
+        font-size: 1.2rem;
+        color: rgb(6, 6, 6);
+       padding-right: 33%;
+        margin-top: 60%;
+              
+    }
+    .secondlast {
+        width: 50%;
+        height: 60vh;
+        margin-left: 25%;
+        background-color: rgb(8, 8, 135);
+        border: 1px solid #060505;
+        color: white;
+    }
+    .secondlast h1 {
+        font-size: 4rem;
+        color: rgb(255, 255, 255);
+        padding-top: 6px;
+        text-align: center;
+    }
+    .self {
+        font-size: 1.7rem;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .para{
+        font-size: 1.2rem;
+        color: rgb(255, 255, 255);
+        padding-top: 4px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .selff {
+        font-size: 1.7rem;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-left: 420px;
+        margin-top: -160px;
+        
+    }
+    .paraa{
+        font-size: 1.2rem;
+        color: rgb(255, 255, 255);
+        padding-top: 2px;
+        padding-left: 400px;
+        padding-right: 20px;
+        
+    }
+    .last {
+        width: 50%;
+        height: 60vh;
+        margin-left: 25%;
+       background-color: rgb(126, 184, 204);
+        border: 1px solid #060505;
+        color: rgb(0, 0, 0);
+        display: flex;
+        
+    }
+     .last h1 {
+      font-size: 4rem;
+      padding-left: 100px;  
+
+     }   
+     .faq {
+        width: 20%;
+        height: 32vh;
+        margin-left: -20%;
+        border-radius: 5px;
+        border: 2px solid #060505;
+        color: rgb(1, 0, 0);
+        padding-top: 20px;
+        margin-top: 150px;
+     }
+     .faq h3{
+      font-size: 2rem;
+      text-align: center;
+     }
+     .faqq {
+        width: 20%;
+        height: 32vh;
+        margin-left: 5%;
+        border-radius: 5px;
+        border: 2px solid #060505;
+        color: rgb(1, 0, 0);
+        padding-top: 20px;
+        margin-top: 150px;
+
+     }
+     .faqq h3{
+      font-size: 2rem;
+      text-align: center;
+     }
+     .faqqq {
+        width: 20%;
+        height: 32vh;
+        margin-left: 5%;
+        border-radius: 5px;
+        border: 2px solid #060505;
+        color: rgb(1, 0, 0);
+        padding-top: 20px;
+        margin-top: 150px;
+
+    }
+     .faqqq h3{
+      font-size: 2rem;
+      text-align: center;
+     }
+     .emp h2 {
+       font-size: 1.4rem;
+         color: rgb(6, 6, 6);
+          
+        margin-left: 50%;
+        
+     }
+      .end {
+        width: 50%;
+        height: 60vh;
+        margin-left: 25%;
+       background-color:  rgb(8, 8, 135);
+        border: 1px solid #060505;
+        color: rgb(255, 255, 255);
+        display: flex;
+        
+    }
+
+     .post  img{
+      width: 120%;
+      height: 60vh;
+      margin-left: 2%;
+    }
+      .gop h1{
+      font-size: 4rem;
+      margin-left: 5px;
+      font-weight: bold;
+    }
+     .gop p{
+        font-size: 1.4rem;
+        margin-left: 5px;
+        font-weight: bold;
+     }  
+       .gop button {
+        background-color: rgb(255, 255, 255);
+        color: rgb(11, 10, 10);
+        padding: 10px 20px;
+        border: 1px solid black;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 230px;
+        margin-left: 5px;
+       }
+       .gop h3{
+        font-size: 1.8rem;
+        margin-left: 5px;
+        font-weight: bold;
+     }  
+     ul {
+        list-style-type: none;
+        padding-top: 12px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+       background-color: rgb(48, 48, 81);
+        border: 1px solid #0b0b0b;
+     }
+     a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        margin: 0 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+     }
+     .contact {
+        width: 50%;
+        height: 130vh;
+        margin-left: 25%;
+       background-color: rgb(126, 184, 204);
+        border: 1px solid #060505;
+        color: rgb(255, 255, 255);
+        display: flex;
+        
+    }
+    form {
+            padding: 30px 40px;
+            max-width: 550px;
+            width: 120%;
+            margin-top: 20px;
+            margin-left: -350px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            border-radius: 12px;
+            box-sizing: border-box;
+            border: 1px solid #030303;
+        }
+       
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+            color: #181616;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        input[type="tel"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 16px;
+            border: 1px solid #030303;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        button {
+          width: 100%;
+          padding: 12px;
+          background-color: #060607;
+          border: none;
+          border-radius: 6px;
+          color: white;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+     <nav>
+        <ul>
+
+         <a href="#header">Home</a>
+         <a href="#section">Images</a>
+         <a href="#secondlast">Journy</a>
+         <a href="#last">Faqs</a>   
+         <a href="#end">Apply</a>
+         <a href="#contact">Contact</a>
+        </ul>
+     </nav>   
+    <section id="header"> 
+    <div class="header">
+    <img src="c:\Users\HP\Downloads\fl-Photoroom.png" alt="logo"><h4>Global Solutions</h4>    
+    <h1>Employee <br> Training Hub</h1>
+    <p>Elevating tech talents into visionary leaders through <br> innovative training and real-world experience.</p>
+    <button>Start Learning</button>
+    <img src="c:\Users\HP\Downloads\employee-Photoroom.png" alt="employee"class="mainpic">
+    
+    </div>
+      
+    </div>
+    </section>
+    <section id="section">
+    <div class="section">
+    <h1>Training hub overview</h1>
+    <img src="ffd.jpg" alt="">
+    <img src="post1.jpg" alt="pic" class="pic">
+    
+    <h3>Taking charge of your own growth</h3>
+    <img src="post2.jpg" alt="pic" >
+    <h3>Building trust with your team</h3>
+    <div class="third">
+    <img src="post4.png" alt="">
+      <h3>Growingyourimpact</h3> 
+    </div>
+          
+    </div>
+    </section>
+    <section id="secondlast">
+    <div class="secondlast">
+    <h1>How your training journey  looks like</h1>
+    
+    <h4 class="self">Self-paced materials</h4>
+    <p class="para">Use this space to talk about your organization’s <br> training program. What makes it relevant and  <br>effective? Add that here.</p>
+     <h4 class="selff">Scheduled group work </h4>
+     <p class="paraa">Use this space to talk about your organization’s training program. <br> What makes it relevant and effective? Add that here.</p>
+    </div>
+    </section>
+    <section id="last">
+    <div class="last">
+    <h1>FAQs </h1>
+    <div class="faq">
+    <h3>How long  program?</h3>
+    <p>Having an FAQ section is a great way to present information about your training program. Using the question-and-answer format makes it more relatable for users.</p>
+    </div>  
+    <div class="faqq">
+    <h3>Who is eligible?</h3>
+    <p>Having an FAQ sectionis a great way to present information about your training program. Using
+the question-and-answer format makes it more relatable for users.</p>
+    </div> 
+    <div class="faqqq">
+    <h3> I miss scheduled  session?</h3>
+    <p>Having an FAQ sectionis a the question-and-answer format makes it more relatable for users.</p>
+    </div>
+     
+         </div>
+    </section> 
+      <section id="end">
+      <div class="end">
+      <div class="post">
+      <img src="c:\Users\HP\Downloads\bb-Photoroom.png" alt="">
+      </div>  
+      <div class="gop">
+     <h1>We  wait  to see you grow!</h1>
+     <p>For any questions about the program,<br> please reach out to</p>  
+     <button>hello@reallygreatsite.com</button>
+     <h3>Global Solutions</h3>
+     </div>
+      </section>
+         
+         </div>
+         <section id="contact">
+        <div class="contact">
+         <h1 style="text-align: center;font-size: 3rem;font-weight: ;color: #060505;padding-left: 350px;">Contact</h1>
+          <form id="registrationForm">
+         <h1>.</h1> 
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your FullName" required >
+        
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required />
+        </span>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your Password" required />
+        
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your Password" required />
+        
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" name="date" required />
+        
+
+        <div class="gender-options">
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" id="gen" value="male" required =""> Male</label>
+            <label><input type="radio" name="gender" id="gen" value="female" required =""> Female</label>
+            <label><input type="radio" name="gender" id="gen"  value="other" required =""> Other</label>
+           
+        </div>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+        
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+        </select>
+        
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+
+        <div class="interest-options">
+            <label>Interests:</label>
+            <label><input type="checkbox" name="interests" value="sports" /> Sports</label>
+            <label><input type="checkbox" name="interests" value="music" /> Music</label>
+            <label><input type="checkbox" name="interests" value="reading" /> Reading</label>
+            <label><input type="checkbox" name="interests" value="travel" /> Travel</label>
+        </div>
+
+        <label for="upload">Upload File:</label>
+        <input type="file" id="upload" name="upload" />
+
+        <br> 
+
+        <button type="submit">Register</button>
+    </form>
+   
+        </div> 
+         </section>   
+         </div>
+
+         
+      
+</body>
+</html>
